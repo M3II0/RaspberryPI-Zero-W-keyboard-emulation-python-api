@@ -76,7 +76,15 @@ legacySymbols = {
 
 changingSymbols = {
     '0': chr(39),
-    '1': chr(30)
+    '1': chr(30),
+    '2': chr(31),
+    '3': chr(32),
+    '4': chr(33),
+    '5': chr(34),
+    '6': chr(35),
+    '7': chr(36),
+    '8': chr(37),
+    '9': chr(38)
 }
 
 #
