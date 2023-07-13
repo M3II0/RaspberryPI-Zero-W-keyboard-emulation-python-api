@@ -10,6 +10,12 @@ You don't need to find keystrokes by yourself!
 - EN
 - SK
 
+## Supported characters
+- a-z
+- A-Z
+- 0-9
+- .*-=/+
+
 ## Requirements
 - Set-up your Raspberry PI Zero W as USB HID device
 NOTE: Make sure that /dev/hidg0 file exists
