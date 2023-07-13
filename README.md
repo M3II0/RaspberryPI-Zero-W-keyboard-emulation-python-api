@@ -7,13 +7,13 @@ You don't need to find keystrokes by yourself!
 - Win11
 
 ## Supported keyboard-layouts
-- EN
-- SK
+- EN ('en')
+- SK ('sk')
 
 ## Supported characters
 - a-z
 - A-Z
-- 0-9
+- 0-9 (Configure keyboard-layout to correct use)
 - .*-=/+
 
 ## Requirements
@@ -24,6 +24,14 @@ NOTE: Make sure that /dev/hidg0 file exists
 - Copy & Paste api.py into your project folder
 
 ## Examples
+
+Setting keyboard-layout
+```python
+import api
+
+api.lang = "sk"
+api.lang = "en"
+```
 
 Shutting down system
 ```python
