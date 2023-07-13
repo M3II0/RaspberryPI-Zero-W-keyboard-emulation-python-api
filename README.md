@@ -38,6 +38,8 @@ How to create HID keyboard with your Raspberry PI Zero W
 
 echo "dtoverlay=dwc2" | sudo tee -a /boot/config.txt
 
+echo " eeee" | sudo tee -a /boot/commandLine.txt
+
 echo "dwc2" | sudo tee -a /etc/modules
 
 sudo echo "libcomposite" | sudo tee -a /etc/modules
